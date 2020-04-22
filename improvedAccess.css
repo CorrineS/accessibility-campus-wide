@@ -1,3 +1,110 @@
-@charset "UTF-8";
+@charset "utf-8";
 /* This is the CSS file for Swarthmore's campus-wide accessibility training.  The purpose of this CSS is to improve accessibility of the interface e.g. increase caption size, add underlines to links.  
 Feel free to point to this file.  */
+
+.cs-listitem {
+	color: white !important;
+}
+
+.cs-listitem:hover{
+	text-decoration: solid underline !important;
+}
+
+#next:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+#prev:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+#submit:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+#resources-link:hover {
+	border-bottom: 2px solid #ffffff !important;
+}
+
+#outline-link:hover {
+	border-bottom: 2px solid #ffffff !important;
+}
+
+#reset:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+#play-pause:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+#captions:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+#volume:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+.cs-listitem .resource:hover {
+	text-decoration: solid underline !important;
+}
+
+.file-name:hover {
+	text-decoration: solid underline !important;
+}
+
+.cs-button:hover {
+	text-decoration: solid underline !important;
+}
+
+.cs-listitem .resource:focus {
+	text-decoration: solid underline!important;
+}
+
+.file-name:focus {
+	text-decoration: solid underline !important;
+}
+
+.cs-listitem:focus{
+	text-decoration: solid underline !important;
+}
+
+.cs-listitem .resource.hover {
+	text-decoration: solid underline !important;
+}
+
+.file-name.hover {
+	text-decoration: solid underline !important;
+}
+
+.cs-button.hover {
+	border-bottom: 2px solid #ffffff !important;
+}
+
+.cs-selected {
+	background: #631919 !important;
+	font-style:italic !important;
+}
+
+.caption {
+	font-size: 120% !important;
+}
+
+.restart-text:hover {
+	border-bottom: 2px solid #ffffff !important;
+}
+
+.mobile-start-resume-text button{
+	background: #31455D !important;
+	border: 1px solid #ffffff !important;
+	color: white !important;
+}
+
+.mobile-start-resume-text button::after{
+	border-color: transparent transparent transparent white !important;
+}
+
+.mobile-start-resume-text button:hover{
+	text-decoration: solid underline !important;
+}
